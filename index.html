@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,17 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
 
-  
+
 
     <header>//toto je header</header>
 
     <main>
         <div class="hero">
             <h1 class="text-3xl font-semibold mb-2">DENNÍ MENU, PIZZA A JINÉ DOBROTY</h1>
-            <button class="text-white bg-red-500 px-2 py-4 rounded-md shadow hover:bg-red-700 mx-auto" >VÍCE</button>
+            <button class="text-white bg-red-500 px-2 py-4 rounded-md shadow hover:bg-red-700 mx-auto">VÍCE</button>
         </div>
     </main>
 
@@ -59,7 +61,29 @@
         </div>
     </section>
 
+    <main>
+        <p>Lorem ipsum dolor sit amet…</p>
+        <p>Lorem ipsum dolor sit amet...</p>
+    </main>
 
-    <script src="./index.js"></script>
+
+    <form action="#" name="prihlaseni" method="post">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required>
+        <label for="heslo">Heslo</label>
+        <input id="heslo" type="password" name="heslo" required>
+        <input type="submit" value="Přihlásit se">
+    </form>
+
+
+    <button type="button" id="otevrit">Otevřít okno</button>
+
+    <dialog id="dialog">
+        <p>Obsah vyskakovacího okna.</p>
+        <button type="button" id="zavrit">Zavřít okno</button>
+     </dialog>
+
+        <script src="./index.js"></script>
 </body>
+
 </html>
